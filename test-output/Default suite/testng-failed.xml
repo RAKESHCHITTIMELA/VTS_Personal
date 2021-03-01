@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="vts.testcases.LoginPage">
+        <methods>
+          <include name="launchingApp"/>
+          <include name="validateLogin"/>
+=======
+      <class name="vts.testcases.Notifications_Activity">
+        <methods>
+          <include name="launchingApp"/>
+>>>>>>> 900edd9a00b22a4c6b9f05e797debdc8ec0d5e11
+          <include name="teardown"/>
+          <include name="validReportData"/>
+        </methods>
+<<<<<<< HEAD
+      </class> <!-- vts.testcases.LoginPage -->
+=======
+      </class> <!-- vts.testcases.Notifications_Activity -->
+>>>>>>> 900edd9a00b22a4c6b9f05e797debdc8ec0d5e11
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

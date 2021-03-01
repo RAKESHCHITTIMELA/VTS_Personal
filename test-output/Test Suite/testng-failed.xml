@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="vts.utils.ReportListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="vts.testcases.TestCases">
+        <methods>
+          <include name="launchingApp"/>
+          <include name="teardown"/>
+          <include name="TC007_validateEditProfile"/>
+        </methods>
+      </class> <!-- vts.testcases.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

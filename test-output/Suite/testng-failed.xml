@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="vts.testcases.TestCases">
+        <methods>
+          <include name="TC002_validateHome"/>
+          <include name="TC001_validateLogin"/>
+          <include name="TC003_validateService"/>
+          <include name="TC004_validateFeedback"/>
+        </methods>
+      </class> <!-- vts.testcases.TestCases -->
+      <class name="vts.testcases.VehicleManagement">
+        <methods>
+          <include name="launchingApp"/>
+          <include name="validateAddVehicle"/>
+        </methods>
+      </class> <!-- vts.testcases.VehicleManagement -->
+      <class name="vts.testcases.Service">
+        <methods>
+          <include name="validateService"/>
+        </methods>
+      </class> <!-- vts.testcases.Service -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

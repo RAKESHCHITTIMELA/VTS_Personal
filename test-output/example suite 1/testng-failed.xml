@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <test name="Regression suite 1(failed)">
+    <classes>
+      <class name="vts.testcases.LoginPage">
+        <methods>
+          <include name="launchingApp"/>
+        </methods>
+      </class> <!-- vts.testcases.LoginPage -->
+      <class name="vts.testcases.Home">
+        <methods>
+          <include name="launchingApp"/>
+        </methods>
+      </class> <!-- vts.testcases.Home -->
+      <class name="vts.testcases.feedback">
+        <methods>
+          <include name="launchingApp"/>
+        </methods>
+      </class> <!-- vts.testcases.feedback -->
+      <class name="vts.testcases.VehicleManagement">
+        <methods>
+          <include name="launchingApp"/>
+          <include name="validateAddVehicle"/>
+        </methods>
+      </class> <!-- vts.testcases.VehicleManagement -->
+      <class name="vts.testcases.Service">
+        <methods>
+          <include name="launchingApp"/>
+          <include name="validateService"/>
+        </methods>
+      </class> <!-- vts.testcases.Service -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
